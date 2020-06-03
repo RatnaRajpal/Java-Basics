@@ -13,7 +13,7 @@
  */
 import java.util.Scanner;
 
-public class Combined_Pyramid_Pattern {
+public class Combined_Half_Pyramid_Pattern{
 	void pyramid(int num) {
 		int k=2;
 		for(int i=0;i<2*num-1;i++) {
@@ -34,7 +34,7 @@ public class Combined_Pyramid_Pattern {
 		System.out.println("Enter the number of rows:");
 		Scanner sc=new Scanner(System.in);
 		int num =sc.nextInt();
-		Combined_Pyramid_Pattern   py=new Combined_Pyramid_Pattern ();
+		Combined_Half_Pyramid_Pattern py=new Combined_Half_Pyramid_Pattern();
 		py.pyramid(num);
 	}
 }
